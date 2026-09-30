@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFEFD5;
+    color: #725f43;
+}
+header {
+    width: 85%;
+    margin: auto;
+    margin-top: 5px;
+}
+header h1 {
+    font-size: 40px;
+    font-style: italic;
+    color: #4d3b27;
+}
+nav {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color: #B3907A;
+    font-size: 18px;
+    margin-left: 20px;
+}
+nav a:hover {
+    color: #60482f;
+}
+.projetos {
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.projetos > h1 {
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+    color: #4d3b27;
+    margin-bottom: 40px;
+}
+.projeto {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    align-items: center;
+
+    background-color: #fffaf0;
+
+    margin-bottom: 30px;
+    padding: 20px;
+
+    border: 1px solid #d2bfa5;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 10px rgba(93, 73, 52, 0.15);
+}
+.projeto img {
+    width: 100%;
+    height: 280px;
+
+    object-fit: contain;
+
+    border: 2px solid #5d4934;
+    border-radius: 8px;
+
+    padding: 5px;
+    background-color: white;
+}
+.descricao {
+    padding: 30px;
+}
+.descricao h2 {
+    font-size: 25px;
+    font-style: italic;
+    color: #60482f;
+    margin-bottom: 15px;
+}
+.descricao p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #80684e;
+}
+.projeto:hover {
+    box-shadow: 0 7px 15px rgba(93, 73, 52, 0.20);
+}

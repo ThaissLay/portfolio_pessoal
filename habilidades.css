@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFEFD5;
+    color: #725f43;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top:5px;
+}
+h1 {
+    font-size: 40px;
+    font-style: italic;
+}
+nav {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color: #B3907A;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.habilidades {
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0 80px;
+}
+.habilidades > h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: italic;
+    color: #4e3924;
+    margin-bottom: 70px;
+}
+.habilidades-tecnicas {
+    text-align: center;
+}
+.habilidades-tecnicas h2,
+.habilidades-pessoais h2 {
+    font-size: 28px;
+    font-weight: 400;
+    font-style: italic;
+    color: #60482f;
+    margin-bottom: 30px;
+}
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.logos img {
+    height: 35px;
+    transition: 0.3s;
+}
+.logos img:hover {
+    transform: translateY(-4px);
+}
+.habilidades-pessoais {
+    margin-top: 90px;
+}
+.habilidades-pessoais h2 {
+    text-align: center;
+}
+.lista-habilidades {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 70px;
+}
+.habilidade {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    padding: 22px 5px;
+    border-bottom: 1px solid #cdbb9f;
+}
+.habilidade span {
+    font-size: 16px;
+    color: #9a8060;
+}
+.habilidade p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #80694e;
+}
